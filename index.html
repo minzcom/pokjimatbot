@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pok Aji Mat - Rumah Sewa Kg Jati</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background:
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url("t1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(6px);
+    max-width: 700px;
+}
+
+h1 {
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* ===== BIG ARROW ===== */
+.arrow-guide {
+    position: fixed;
+    bottom: 120px; /* adjust height above chatbot */
+    right: 40px;
+    font-size: 90px;
+    color: #22c55e;
+    animation: bounce 1.2s infinite;
+    z-index: 9999;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(15px); }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>🏠 Rumah Sewa Kampung Jati</h1>
+    <p>
+        Klik chatbot di bawah untuk berhubung dengan Pok Aji Mat.
+    </p>
+</div>
+
+<!-- BIG ARROW -->
+<div class="arrow-guide">⬇️</div>
+
+<!-- DigitalOcean AI Agent Widget -->
+<script async
+  src="https://vrrt22osox3pt5xiy6ynzbsz.agents.do-ai.run/static/chatbot/widget.js"
+  data-agent-id="b375b362-0b28-11f1-b074-4e013e2ddde4"
+  data-chatbot-id="oJ1npGjI_KCh4ASaaHB8XJ6HhG9TDf96"
+  data-name="Pok Aji Mat - Kg Jati"
+  data-primary-color="#064E3B"
+  data-secondary-color="#ECFDF5"
+  data-button-background-color="#16A34A"
+  data-starting-message="Aslmkm demo smua. Pok Aji Mat ni. Byar sewa bln ni dh maso ko?"
+  data-logo="/static/chatbot/icons/default-agent.svg">
+</script>
+
+</body>
+</html>
